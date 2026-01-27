@@ -1,0 +1,48 @@
+Dataset: FER2013
+
+Source:
+https://www.kaggle.com/datasets/msambare/fer2013
+
+Instructions:
+1. Download the FER2013 dataset from Kaggle using the link above.
+2. Extract the archive locally.
+3. Organize the data into train and test directories inside the data folder.
+4. Each directory should contain subfolders corresponding to emotion classes.
+5. Image data is not included in the repository.
+
+Expected path:
+data/train/happy/xxx.png
+data/train/sad/xxx.png
+data/train/neutral/xxx.png
+...
+
+data/test/happy/xxx.png
+data/test/sad/xxx.png
+...
+
+Label definition:
+Happy:
+- happy
+
+Non-happy:
+- angry
+- disgust
+- fear
+- sad
+- surprise
+- neutral
+
+All non-happy classes are merged into a single negative class during preprocessing.
+
+Notes:
+- Images are grayscale with resolution 48x48.
+- Facial expression labels may contain noise.
+- The dataset is used to study visual patterns of happiness, not emotional state.
+- Models trained on this dataset are not expected to generalize perfectly to real-world images.
+
+Python dependencies required to run the project:
+- numpy
+- matplotlib
+- pillow
+- scikit-learn
+- opencv-python
