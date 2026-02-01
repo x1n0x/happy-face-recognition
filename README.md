@@ -118,7 +118,19 @@ and can be reused without retraining.
 
 ## Project Structure
 
-git ls-tree -r HEAD --name-only | sed 's|/[^/]*$||' | sort -u
+happy-face-recognition/
+├── data/
+│ └── my_test/
+├── models/
+│ └── cnn_happiness_model.keras
+├── notebooks/
+│ ├── 05_simple_cnn.ipynb
+│ ├── 06_model_comparison.ipynb
+│ └── 07_inference_demo.ipynb
+├── src/
+│ ├── data.py
+│ └── inference.py
+└── README.md
 
 ---
 
