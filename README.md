@@ -118,19 +118,7 @@ and can be reused without retraining.
 
 ## Project Structure
 
-happy-face-recognition/
-├── data/
-│ └── my_test/
-├── models/
-│ └── cnn_happiness_model.keras
-├── notebooks/
-│ ├── 05_simple_cnn.ipynb
-│ ├── 06_model_comparison.ipynb
-│ └── 07_inference_demo.ipynb
-├── src/
-│ ├── data.py
-│ └── inference.py
-└── README.md
+<img width="445" height="553" alt="image" src="https://github.com/user-attachments/assets/229f9e53-34b1-4397-878d-d61186d0807a" />
 
 ---
 
